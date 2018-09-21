@@ -7,7 +7,7 @@ pipeline {
   stages {
         stage('terrafrom started') {
             steps {
-                sh 'echo "Started...!" '
+                echo "Started...!"
             }
         }
     }
